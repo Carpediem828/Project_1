@@ -1,158 +1,74 @@
-@font-face {
-    font-family: 'IBM Plex Mono';
-    src: url('./fonts/IBMPlexMono-Regular.ttf');
-    font-weight: 400;
+.boxbox1{
+    background-color: #024156;
 }
-@font-face {
-    font-family: 'IBM Plex Mono';
-    src: url('./fonts/IBMPlexMono-Bold.ttf');
-    font-weight: 700;
+.boxbox3{
+    background-color: #024156;
 }
+.boxbox5{   
+     background-color: #024156;
+}
+
+.boxbox7{    
+    background-color: #024156;
+}
+.boxbox9{
+    background-color: #024156;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #000028;
-    font-family: 'IBM Plex Mono';
-}
-.sperma{
-    width: 1024px;
-    margin: 0 auto;
+  background: -webkit-linear-gradient(left, #25c481, #77027f);
+  background: linear-gradient(to right, #25c481, #77027f);
+  font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
+.heading {
+  font-size: 70px;
+  font-weight: 600;
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
-.section {
-    background-color: #1c1c1c;
-    border: 2px solid #ff007f;
-    padding: 20px;
-    width: 30%;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    margin: 0 10px;
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
 }
 
-h2 {
-    color: #ff007f;
-    font-size: 20px;
-    margin-bottom: 10px;
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  text-align: left;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
 }
-button{
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #353430;
-    background-color: transparent; 
-    position: relative;
-    font-size: 18px;
-    font-family: "IBM Plex Mono";
-}
-.buttonneon{
-    
-}
-header{
-    background-image: url(./img/kok.png);
-    width: 1024px;
-    height: 768px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 60px;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 100%; 
-    position: relative;
-}
-.navigation{
-    padding: 0 13px;
-    gap: 10px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
 
+.disabled td {
+  color: #4F5F64;
 }
-.content{
-    top: 563px;
-    margin-left: 513px;
-    background-color: #FF0070;
-    color: #000028;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 134px;
-    padding-bottom: 0;
-}
-.title{
-    width: 759px;
-    height: 130px;
-    top: 319px;
-    font-family: 'IBM Plex Mono';
-    font-size: 157px;
-    font-weight: 700;
-    line-height: 129.53px;
-    text-align: left;
-    background: #DB00FF;
-    filter: drop-shadow(4px 4px #FF0070);
-}
-.sigma228{
-    width: 759px;
-    height: 130px;
-    top: 319px;
-    font-family: 'IBM Plex Mono';
-    font-size: 157px;
-    font-weight: 700;
-    line-height: 129.53px;
-    text-align: left;
-    color: #DB00FF;
-    filter: drop-shadow(4px 4px 0 #FF0070);
-}
-.levougl{
-    width: 25px;
-    height: 25px;
-    top: 20px; 
-    right: 40px;  
-    border-top: 1px solid #FF0070 ;
-    border-right: 1px solid #FF0070;
-    position: absolute; 
-   
-}
-.pravougl{
-    width: 25px;
-    height: 25px;
-    bottom: 20px; 
-    left: 20px;  
-    border-bottom: 1px solid #FF0070;
-    border-left: 1px solid;
-    position: absolute #FF0070;
-}
-.kryg{
-    position: absolute;
-    width: 9px;
-    height: 9px;
-    top: 28px;
-    left: 966px;
-    background: #FF0070;
-    border-radius: 100%;
-    box-shadow: 0 0 4px 2px #ff0070;
-    
-}
-.rec{
-    display: flex;
-    position: absolute;
-    color: #FF0070;
-    top: 20px;
-    left: 920px;
-    font-size: 18px;
+tbody tr {
+    transition: background 0.25s ease;
+  }
+
+tbody tr {
+  background: #90daf2;
 }
